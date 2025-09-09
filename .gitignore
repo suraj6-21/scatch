@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+build/
+tmp/
+
+# Environment variables
+.env
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Coverage and reports
+coverage/
+.nyc_output/
+
+# Database & runtime files
+data/
+*.pid
+*.seed
+
+# MongoDB logs and data
+mongodb/data/
+mongodb/data/**/*.log
+
+# EJS template precompiled output (if applicable)
+*.ejs
+views/
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
